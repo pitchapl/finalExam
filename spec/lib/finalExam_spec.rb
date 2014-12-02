@@ -1,5 +1,5 @@
 require "spec_helper"
-require "finalExam"
+require "./finalExam.rb"
 
 describe finalExam do
   describe "#lovemac" do
