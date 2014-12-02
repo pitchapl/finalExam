@@ -8,19 +8,19 @@ class finalExam
 	# end 
 
 	(1..50).each do |number|
-		puts lovemac(number)
+	  lovemac(number)
 	end
 
 	def lovemac(number)
 		case
 
 	 		when (number % 3 == 0) && (number % 5 == 0)
-	   	 		number = "HateWindows"
+	   	 		puts "HateWindows"
 	  		when (number % 3 == 0)
-	    		number = "Love"
+	    		puts "Love"
 	  		when (number % 5 == 0)
-	    		number = "Mac"
-	    	else number=number
+	    		puts "Mac"
+	    	else puts number
 	    		
     	end
 	end
