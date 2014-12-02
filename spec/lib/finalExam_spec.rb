@@ -6,6 +6,7 @@ describe finalExam do
   describe "lovemac" do
     it "check divisible by 3"do
       expect(3).to eq("Love")
+    end
        it "check divisible by 5"do
       expect(5).to eq("Mac")
 
@@ -36,5 +37,6 @@ describe finalExam do
   #   	 new_name = account1.changeName("New Name")
   #   	 expect(new_name).to eq("New Name")
   #   end
+
 end
 end
