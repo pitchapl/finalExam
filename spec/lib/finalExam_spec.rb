@@ -5,7 +5,9 @@ describe finalExam do
 
   describe "lovemac" do
     it "check divisible by 3"do
-      expect(3).to eq(Love)
+      expect(3).to eq("Love")
+       it "check divisible by 5"do
+      expect(5).to eq("Mac")
 
     end
 
