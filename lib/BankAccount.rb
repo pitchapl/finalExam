@@ -1,4 +1,21 @@
-class finalExam
+class BankAccount
+
+
+	def lovemac(number) 
+		
+  		case
+		  when (number % 3 == 0) && (number % 5 == 0)
+		    puts "HateWindows"
+		  when (number % 3 == 0)
+		    puts "Love"
+		  when (number % 5 == 0)
+		    puts "Mac"
+		  else
+		    puts number
+		  end
+		end
+
+	end
 	
 	# def initialize(money)
 	# 	@count=0
@@ -6,26 +23,6 @@ class finalExam
 	# 	@accountNumber=1
 	# 	@name="Pitcha"
 	# end 
-
-	(1..50).each do |number|
-	  lovemac(number)
-	end
-
-	def lovemac(number)
-		case
-
-	 		when (number % 3 == 0) && (number % 5 == 0)
-	   	 		puts "HateWindows"
-	  		when (number % 3 == 0)
-	    		puts "Love"
-	  		when (number % 5 == 0)
-	    		puts "Mac"
-	    	else puts number
-	    		
-    	end
-	end
-
-
 	# def withdraw(numbers)
 	# 	#puts "#{(@balance-numbers)}"
 	# 	@balance-=numbers
